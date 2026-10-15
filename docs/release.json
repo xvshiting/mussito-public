@@ -1,0 +1,18 @@
+{
+  "updated_at": "2026-10-16",
+  "mac": {
+    "status": "preparing",
+    "version": null,
+    "minimum_macos": "15.0",
+    "architecture": "arm64",
+    "signed": false,
+    "notarized": false,
+    "download_url": null,
+    "sha256": null
+  },
+  "iphone": {
+    "status": "preparing",
+    "minimum_ios": "17.0",
+    "app_store_url": null
+  }
+}

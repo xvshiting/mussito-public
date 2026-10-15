@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xvshiting.github.io/mussito-public/sitemap.xml

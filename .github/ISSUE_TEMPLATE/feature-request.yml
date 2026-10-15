@@ -1,0 +1,17 @@
+name: 功能建议
+description: 分享你的使用场景和改进想法
+title: "[建议] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 你在什么场景下使用 Mussito？
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 希望怎样改进？
+      description: "描述你希望完成的事情即可。"
+    validations:
+      required: true

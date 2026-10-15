@@ -1,0 +1,25 @@
+name: 隐私问题
+description: 咨询数据处理、资料删除或隐私政策
+title: "[隐私] "
+body:
+  - type: markdown
+    attributes:
+      value: "这是公开入口。先描述问题类型，不要提交个人资料、配对信息、录音或识别正文。"
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题类型
+      options:
+        - 音频与文字处理
+        - 声纹资料
+        - 配对或本地资料删除
+        - 官网或第三方服务
+        - 其他隐私问题
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 请简要描述问题
+    validations:
+      required: true
