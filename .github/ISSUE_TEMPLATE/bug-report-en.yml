@@ -1,0 +1,45 @@
+name: Bug report (English)
+description: Report an installation, connection, audio, or text-input problem
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "This is a public form. Do not share pairing codes, credentials, private recordings, or unredacted private text."
+  - type: input
+    id: version
+    attributes:
+      label: Mussito version
+      placeholder: "Mac and iPhone versions, if applicable"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Devices and system versions
+      description: "Mac model/chip, macOS version, iPhone model, and iOS version. Do not include device serial numbers."
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where does the problem occur?
+      options:
+        - Installation or permissions
+        - Pairing or connection
+        - Recording or audio component
+        - Recognition or text input
+        - Speaker filtering
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce, actual result, and expected result
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional information
+      description: "Screenshots are optional. Check them for private information first. Recordings, transcripts, and pairing information are not needed."

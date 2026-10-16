@@ -10,7 +10,7 @@
 4. 制作最终 DMG，并验证文件完整性及公证票据。计算 SHA-256。发布说明准确列出版本、架构、系统要求、依赖、已验收范围和已知问题。
 5. 创建带该 DMG 和 SHA256SUMS.txt 的 GitHub Draft Release，人工核对后再发布。使用 `release-templates/mac-release.md` 作为说明结构；不要把应用源码或开发日志附在公开发行中。
 6. 将 `docs/release.json` 的 Mac 状态改为 `published`，填写真实 `version`、`download_url`、`sha256`，确认 `signed` 与 `notarized` 均为 `true`。下载 URL 必须指向本仓库 Releases 的 DMG。
-7. 更新 `content/updates.html` 与相关说明，运行构建和链接检查后提交。GitHub Pages 发布后，核对实际下载文件与 SHA-256 一致。
+7. 同步更新英文 `content/updates.html`、中文 `content/zh/updates.html` 与相关说明，运行构建和链接检查后提交。GitHub Pages 发布后，核对实际下载文件与 SHA-256 一致。
 
 GitHub 自动生成的 Source code ZIP/TAR.GZ 只包含本公开仓库的网页与文档，不是应用源码。安装包以单独的 DMG 资产为准。
 

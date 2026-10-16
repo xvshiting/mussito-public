@@ -1,54 +1,61 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en" data-site-root=".">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f5f8fa">
-  <title>帮助与支持 — Mussito</title>
-  <meta name="description" content="查找连接、权限、音频与输入问题的解决方法，并反馈使用问题。">
+  <title>Help and support — Mussito</title>
+  <meta name="description" content="Find help with pairing, permissions, audio, and text input, or report an issue on GitHub.">
   <link rel="canonical" href="https://xvshiting.github.io/mussito-public/support.html">
+  <link rel="alternate" hreflang="en" href="https://xvshiting.github.io/mussito-public/support.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://xvshiting.github.io/mussito-public/zh/support.html">
+  <link rel="alternate" hreflang="x-default" href="https://xvshiting.github.io/mussito-public/support.html">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
   <meta property="og:site_name" content="Mussito">
-  <meta property="og:title" content="帮助与支持 — Mussito">
-  <meta property="og:description" content="查找连接、权限、音频与输入问题的解决方法，并反馈使用问题。">
+  <meta property="og:title" content="Help and support — Mussito">
+  <meta property="og:description" content="Find help with pairing, permissions, audio, and text input, or report an issue on GitHub.">
   <meta property="og:url" content="https://xvshiting.github.io/mussito-public/support.html">
   <meta property="og:image" content="https://xvshiting.github.io/mussito-public/assets/mussito-icon.png">
   <link rel="icon" href="assets/mussito-icon.png" type="image/png">
-  <link rel="stylesheet" href="assets/style.css">
-  <script src="assets/site.js" defer></script>
+  <link rel="stylesheet" href="assets/style.css?v=221b09327189">
+  <script src="assets/site.js?v=4d7aacc5e4e6" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">跳到正文</a>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="nav-wrap">
-      <a class="brand" href="index.html" aria-label="Mussito 首页"><img src="assets/mussito-icon.png" width="34" height="34" alt=""><span>Mussito</span></a>
-      <nav aria-label="主导航">
-        <a href="index.html#experience" >体验</a>
-        <a href="guide.html" >使用指南</a>
-        <a href="support.html" aria-current="page">帮助</a>
-        <a class="nav-download" href="download.html" >获取 Mussito <span aria-hidden="true">↗</span></a>
-      </nav>
+      <a class="brand" href="index.html" aria-label="Mussito home"><img src="assets/mussito-icon.png" width="34" height="34" alt=""><span>Mussito</span></a>
+      <div class="nav-actions">
+        <nav aria-label="Main navigation">
+          <a href="index.html#experience" >Experience</a>
+          <a href="guide.html" >Guide</a>
+          <a href="support.html" aria-current="page">Support</a>
+          <a class="nav-download" href="download.html" >Get Mussito <span aria-hidden="true">↗</span></a>
+        </nav>
+        <a class="language-switch" data-language-switch href="zh/support.html" lang="zh-CN" hreflang="zh-CN" aria-label="切换到中文">中文</a>
+      </div>
     </div>
   </header>
-  <main id="main"><section class="page-width page-heading"><p class="eyebrow">帮助与支持</p><h1>把问题解决，<br>把表达接上。</h1><p>先看看常见问题。需要进一步帮助时，可以在 GitHub 描述你遇到的情况。</p></section>
-<section class="page-width support-links"><a class="support-link" href="https://github.com/xvshiting/mussito-public/issues/new?template=bug-report.yml"><span>使用问题</span><h2>报告一个问题 <span aria-hidden="true">↗</span></h2><p>连接、音频、输入或安装出现异常。</p></a><a class="support-link" href="https://github.com/xvshiting/mussito-public/issues/new?template=feature-request.yml"><span>想法与建议</span><h2>聊聊你的用法 <span aria-hidden="true">↗</span></h2><p>告诉我们，什么能让它更顺手。</p></a></section>
-<section class="page-width faq-section"><p class="eyebrow">常见问题</p><h2>或许，这里就有答案。</h2>
-<details><summary>现在可以下载或购买了吗？</summary><div><p>目前正在准备首次公开发布，尚无正式 DMG、App Store 购买页或公开 TestFlight 邀请。请以<a href="download.html">下载页面</a>和<a href="updates.html">更新记录</a>为准。</p></div></details>
-<details><summary>iPhone 端可以单独完成 Mac 语音输入吗？</summary><div><p>目前的手机传音和 Mac 输入流程需要安装 Mussito Mac 端。iPhone 负责收音与控制，识别、声纹判断和文字输入在已配对的 Mac 上完成。</p></div></details>
-<details><summary>手机找不到 Mac，或连接一直没有就绪？</summary><div><p>先确认 Mac 上已开启连接，iPhone 与 Mac 都允许本地网络访问。首次配对请接入同一局域网并保持 Mac 唤醒。旧链接失效时，在 Mac 重置配对后重新扫码。不要在公开反馈中贴出二维码或配对链接。</p></div></details>
-<details><summary>已经连接，但 Mac 没有文字出现？</summary><div><p>先确认 Mac 的识别方式已经就绪，辅助功能权限已授予，并在开始前点击目标输入框。使用本地模式时，文字会在本轮结束后统一输入；使用输入法模式时，检查双方选择的虚拟麦克风是否一致。</p></div></details>
-<details><summary>切换应用后为什么停止了？</summary><div><p>为防止文字写入错误位置，用户切换应用或手动改变输入位置时，会停止后续输入。请在新的目标位置重新开始。本地模式与不同输入框的行为可能不同。</p></div></details>
-<details><summary>Mac 上的音频组件一定要安装吗？</summary><div><p>本地识别模式无需虚拟音频组件。将手机或经过过滤的音频交给已安装输入法的模式，需要配置 Mussito Audio，并在双方选择同一设备。详情见<a href="guide.html#recognition">Mac 识别方式</a>。</p></div></details>
-<details><summary>声纹过滤为什么没有接住短句？</summary><div><p>判断身份需要一定的有效语音长度，过短或不清晰的声音可能被拒绝。它也不能从同时重叠讲话中分离目标声音。可检查录音设备、重新登记，或调整过滤严格度。</p></div></details>
-<details><summary>支持 Intel Mac、后台录音或锁屏录音吗？</summary><div><p>首发验证面向 Apple Silicon Mac，Intel 实机兼容性尚未确认。目前 iPhone 录音需要保持应用在前台，Mac 需要唤醒，不承诺锁屏或后台持续录音。</p></div></details>
-<details><summary>如何卸载或清理资料？</summary><div><p>停止录音和连接后，可移除应用。声纹资料可在 Mac 设置中删除，配对可重置。若安装过 Mussito Audio，请使用应用中的卸载入口，并按提示重启以卸载正在运行的组件。</p></div></details>
+  <main id="main"><section class="page-width page-heading"><p class="eyebrow">Help and support</p><h1>Get unstuck.<br>Get back to your words.</h1><p>Start with the common questions below. If you need more help, tell us what happened on GitHub.</p></section>
+<section class="page-width support-links"><a class="support-link" href="https://github.com/xvshiting/mussito-public/issues/new?template=bug-report-en.yml"><span>SOMETHING WENT WRONG</span><h2>Report an issue <span aria-hidden="true">↗</span></h2><p>Installation, connection, audio, or text-input problems.</p></a><a class="support-link" href="https://github.com/xvshiting/mussito-public/issues/new?template=feature-request-en.yml"><span>IDEAS AND SUGGESTIONS</span><h2>Tell us how you use it <span aria-hidden="true">↗</span></h2><p>What would make Mussito work better for you?</p></a></section>
+<section class="page-width faq-section"><p class="eyebrow">Common questions</p><h2>You may find the answer here.</h2>
+<details><summary>Can I download or buy it now?</summary><div><p>We are preparing the first public release. There is no public DMG, App Store purchase page, or public TestFlight invitation yet. Check <a href="download.html">availability</a> and the <a href="updates.html">release updates</a>.</p></div></details>
+<details><summary>Can the iPhone app enter text on my Mac by itself?</summary><div><p>The current phone-audio and Mac text-input workflow requires the Mussito Mac app. Your iPhone captures audio and controls the session; recognition, speaker filtering, and text input run on your paired Mac.</p></div></details>
+<details><summary>Why can't my iPhone find or connect to my Mac?</summary><div><p>Check that the connection is enabled in the Mac app and both devices allow local network access. For initial pairing, use the same local network and keep your Mac awake. If an old link no longer works, reset pairing on the Mac and scan again. Do not post the code or link publicly.</p></div></details>
+<details><summary>I'm connected, but no text appears on my Mac.</summary><div><p>Check that the recognition mode is ready, Accessibility permission is granted, and you selected an input field before starting. Local mode enters text when the session ends. In input-method mode, make sure both apps select the same virtual microphone.</p></div></details>
+<details><summary>Why did the session stop when I switched apps?</summary><div><p>Switching apps or manually changing the input location can stop further input to keep text out of the wrong field. Start again at the new location. Behavior may vary between local mode and different input fields.</p></div></details>
+<details><summary>Do I need to install the Mac audio component?</summary><div><p>Local recognition does not need a virtual audio component. Passing phone audio or filtered audio to an installed input method requires Mussito Audio, with the same device selected in both apps. See <a href="guide.html#recognition">recognition modes on Mac</a>.</p></div></details>
+<details><summary>Why did speaker filtering reject a short phrase?</summary><div><p>Speaker verification needs enough effective speech. Very short or unclear sounds may be rejected, and overlapping speakers cannot be separated. Check the microphone, enroll your voice again, or adjust the filtering strictness.</p></div></details>
+<details><summary>Are Intel Macs, background recording, or a locked phone supported?</summary><div><p>Initial hardware validation targets Apple Silicon Macs; Intel compatibility has not been verified on real hardware. For now, keep Mussito in the foreground on your iPhone and your Mac awake. Continuous recording in the background or with the phone locked is not promised.</p></div></details>
+<details><summary>How do I uninstall Mussito or remove its data?</summary><div><p>Stop recording and disconnect before removing the app. Delete voice-profile data in Mac Settings and reset pairing if needed. If you installed Mussito Audio, use the app's uninstall entry and follow the restart instructions to unload the running component.</p></div></details>
 </section>
-<section class="page-width support-note"><h2>反馈时，这些信息最有帮助。</h2><p>系统版本、设备类型、Mussito 版本、复现步骤，以及你预期发生什么。若提供截图，请先检查其中的私人信息。</p><p>目前使用 GitHub 公开反馈，不设定回复时限。隐私相关问题请通过<a href="https://github.com/xvshiting/mussito-public/issues/new?template=privacy.yml">隐私问题入口</a>只描述问题类型。</p></section>
+<section class="page-width support-note"><h2>What helps us understand an issue?</h2><p>Your system version, device type, Mussito version, steps to reproduce, and what you expected. Review screenshots for private information before attaching them.</p><p>Support currently uses public GitHub issues, with no guaranteed response time. For privacy questions, use the <a href="https://github.com/xvshiting/mussito-public/issues/new?template=privacy-en.yml">privacy question form</a> to describe only the type of concern.</p></section>
 </main>
   <footer class="site-footer">
-    <div class="footer-top"><a class="brand" href="index.html"><img src="assets/mussito-icon.png" width="30" height="30" alt=""><span>Mussito</span></a><p>轻声说，自然成文。</p></div>
-    <div class="footer-bottom"><span>© 2026 Mussito</span><nav aria-label="页脚导航"><a href="privacy.html">隐私政策</a><a href="support.html">联系与支持</a><a href="updates.html">更新记录</a><a href="https://github.com/xvshiting/mussito-public">GitHub <span aria-hidden="true">↗</span></a></nav></div>
+    <div class="footer-top"><a class="brand" href="index.html"><img src="assets/mussito-icon.png" width="30" height="30" alt=""><span>Mussito</span></a><p>Speak softly. Write naturally.</p></div>
+    <div class="footer-bottom"><span>© 2026 Mussito</span><nav aria-label="Footer navigation"><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a href="updates.html">Updates</a><a href="https://github.com/xvshiting/mussito-public">GitHub <span aria-hidden="true">↗</span></a></nav></div>
   </footer>
 </body>
 </html>

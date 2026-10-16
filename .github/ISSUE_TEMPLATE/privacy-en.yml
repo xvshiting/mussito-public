@@ -1,0 +1,25 @@
+name: Privacy question (English)
+description: Ask about data handling, local data removal, or the privacy policy
+title: "[Privacy] "
+body:
+  - type: markdown
+    attributes:
+      value: "This is a public channel. Describe only the type of concern first. Do not submit personal information, pairing details, recordings, or transcripts."
+  - type: dropdown
+    id: category
+    attributes:
+      label: Type of question
+      options:
+        - Audio or text processing
+        - Voice-profile data
+        - Pairing or local data removal
+        - Website or third-party software
+        - Other privacy concern
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Briefly describe your question
+    validations:
+      required: true

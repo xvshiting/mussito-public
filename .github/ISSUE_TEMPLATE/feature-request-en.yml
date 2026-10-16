@@ -1,0 +1,17 @@
+name: Feature request (English)
+description: Share your use case or an idea for improvement
+title: "[Idea] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: How do you use Mussito?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would you like to improve?
+      description: "Describe what you are trying to do."
+    validations:
+      required: true

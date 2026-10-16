@@ -2,7 +2,8 @@
 
 **轻声说，自然成文。** 将 iPhone 变成 Mac 的随身麦克风，在熟悉的输入位置完成语音输入。
 
-- [官网](https://xvshiting.github.io/mussito-public/)
+- [Website (English)](https://xvshiting.github.io/mussito-public/)
+- [官网（中文）](https://xvshiting.github.io/mussito-public/zh/)
 - [获取 Mussito](https://xvshiting.github.io/mussito-public/download.html)
 - [安装与配对](https://xvshiting.github.io/mussito-public/guide.html)
 - [帮助与支持](https://xvshiting.github.io/mussito-public/support.html)
@@ -23,7 +24,7 @@
 
 ## 维护网站
 
-网站是无框架的静态 HTML/CSS/JS，通过 GitHub Pages 从 `main:/docs` 发布，无广告、统计脚本或外部字体。
+网站是无框架的静态 HTML/CSS/JS，通过 GitHub Pages 从 `main:/docs` 发布。首次访问默认英文，页头可切换中文；语言保存在页面地址中，不使用 Cookie。无广告、统计脚本或外部字体。
 
 ```sh
 conda run -n kora python scripts/build_site.py
@@ -31,7 +32,8 @@ conda run -n kora python scripts/check_site.py
 conda run --no-capture-output -n kora python -m http.server 8790 --bind 127.0.0.1 --directory docs
 ```
 
-- 页面正文：`content/*.html`
+- 英文正文：`content/*.html`（官网默认语言）
+- 中文正文：`content/zh/*.html`（公开地址 `/zh/`）
 - 共用模板：`site/layout.html`
 - 样式、交互与已检查的品牌素材：`docs/assets/`
 - 可编辑发布状态：`docs/release.json`
